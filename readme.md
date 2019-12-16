@@ -1,5 +1,7 @@
 # Robot Test 1
 
+---
+
 ## Usage
 
 Simple usage:
@@ -9,6 +11,8 @@ Simple usage:
 Example:
 
 `robot --outputdir results tests`
+
+---
 
 ## Setup
 
@@ -35,3 +39,11 @@ Selenium requires a browser driver in order to automate interaction. This can be
 pip install webdrivermanager
 webdrivermanager firefox chrome --linkpath /usr/local/bin
 ```
+
+---
+
+## Resources
+
+- [Robot Framework docs](https://robotframework.org/#documentation)
+- [Joonas Venäläinen - UI Regression Testing With Robot Framework Part 1](https://medium.com/@joonasvenlinen/ui-regression-testing-with-robot-framework-part-1-578f2f50b721)
+- [VSCode plugin (Robot Framework Intellisense)](https://marketplace.visualstudio.com/items?itemName=TomiTurtiainen.rf-intellisense)
